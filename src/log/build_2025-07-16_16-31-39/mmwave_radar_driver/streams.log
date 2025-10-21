@@ -1,0 +1,17 @@
+[2.705s] Invoking command in '/home/airl-radar/ros2_radar_ws/src/build/mmwave_radar_driver': PS1=(radar_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/airl-radar/ros2_radar_ws/src/build/mmwave_radar_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/airl-radar/ros2_radar_ws/src/install/mmwave_radar_driver/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(radar_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/airl-radar/ros2_radar_ws/src/build/mmwave_radar_driver/build --no-deps symlink_data
+[3.865s] running develop
+[4.628s] running egg_info
+[4.628s] writing mmwave_radar_driver.egg-info/PKG-INFO
+[4.630s] writing dependency_links to mmwave_radar_driver.egg-info/dependency_links.txt
+[4.631s] writing entry points to mmwave_radar_driver.egg-info/entry_points.txt
+[4.632s] writing requirements to mmwave_radar_driver.egg-info/requires.txt
+[4.633s] writing top-level names to mmwave_radar_driver.egg-info/top_level.txt
+[4.645s] reading manifest file 'mmwave_radar_driver.egg-info/SOURCES.txt'
+[4.648s] writing manifest file 'mmwave_radar_driver.egg-info/SOURCES.txt'
+[4.654s] running build_ext
+[4.655s] Creating /home/airl-radar/ros2_radar_ws/src/install/mmwave_radar_driver/lib/python3.10/site-packages/mmwave-radar-driver.egg-link (link to .)
+[4.659s] Installing radar_parser script to /home/airl-radar/ros2_radar_ws/src/install/mmwave_radar_driver/lib/mmwave_radar_driver
+[4.661s] 
+[4.661s] Installed /home/airl-radar/ros2_radar_ws/src/build/mmwave_radar_driver
+[4.662s] running symlink_data
+[4.803s] Invoked command in '/home/airl-radar/ros2_radar_ws/src/build/mmwave_radar_driver' returned '0': PS1=(radar_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/airl-radar/ros2_radar_ws/src/build/mmwave_radar_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/airl-radar/ros2_radar_ws/src/install/mmwave_radar_driver/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(radar_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/airl-radar/ros2_radar_ws/src/build/mmwave_radar_driver/build --no-deps symlink_data

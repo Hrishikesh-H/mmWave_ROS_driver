@@ -1,0 +1,164 @@
+[0.442s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.442s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff995af490>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff99798820>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff99798820>>)
+[1.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.232s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/airl-radar/ros2_radar_ws/src'
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.283s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.283s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.283s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.284s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.284s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.285s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.285s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.285s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.286s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.286s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_radar_driver) by extensions ['ignore', 'ignore_ament_install']
+[1.286s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_radar_driver) by extension 'ignore'
+[1.287s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_radar_driver) by extension 'ignore_ament_install'
+[1.287s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_radar_driver) by extensions ['colcon_pkg']
+[1.287s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_radar_driver) by extension 'colcon_pkg'
+[1.287s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_radar_driver) by extensions ['colcon_meta']
+[1.287s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_radar_driver) by extension 'colcon_meta'
+[1.288s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_radar_driver) by extensions ['ros']
+[1.288s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_radar_driver) by extension 'ros'
+[1.297s] DEBUG:colcon.colcon_core.package_identification:Package 'mmwave_radar_driver' with type 'ros.ament_python' and name 'mmwave_radar_driver'
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(usb_cam_tuner) by extensions ['ignore', 'ignore_ament_install']
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(usb_cam_tuner) by extension 'ignore'
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(usb_cam_tuner) by extension 'ignore_ament_install'
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(usb_cam_tuner) by extensions ['colcon_pkg']
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(usb_cam_tuner) by extension 'colcon_pkg'
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(usb_cam_tuner) by extensions ['colcon_meta']
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(usb_cam_tuner) by extension 'colcon_meta'
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(usb_cam_tuner) by extensions ['ros']
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(usb_cam_tuner) by extension 'ros'
+[1.303s] DEBUG:colcon.colcon_core.package_identification:Package 'usb_cam_tuner' with type 'ros.ament_python' and name 'usb_cam_tuner'
+[1.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.440s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 280 installed packages in /opt/ros/humble
+[1.446s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.613s] Level 5:colcon.colcon_core.verb:set package 'mmwave_radar_driver' build argument 'cmake_args' from command line to 'None'
+[1.613s] Level 5:colcon.colcon_core.verb:set package 'mmwave_radar_driver' build argument 'cmake_target' from command line to 'None'
+[1.613s] Level 5:colcon.colcon_core.verb:set package 'mmwave_radar_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.613s] Level 5:colcon.colcon_core.verb:set package 'mmwave_radar_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[1.614s] Level 5:colcon.colcon_core.verb:set package 'mmwave_radar_driver' build argument 'cmake_clean_first' from command line to 'False'
+[1.614s] Level 5:colcon.colcon_core.verb:set package 'mmwave_radar_driver' build argument 'cmake_force_configure' from command line to 'False'
+[1.614s] Level 5:colcon.colcon_core.verb:set package 'mmwave_radar_driver' build argument 'ament_cmake_args' from command line to 'None'
+[1.614s] Level 5:colcon.colcon_core.verb:set package 'mmwave_radar_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[1.614s] Level 5:colcon.colcon_core.verb:set package 'mmwave_radar_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.614s] DEBUG:colcon.colcon_core.verb:Building package 'mmwave_radar_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/airl-radar/ros2_radar_ws/src/build/mmwave_radar_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/airl-radar/ros2_radar_ws/src/install/mmwave_radar_driver', 'merge_install': False, 'path': '/home/airl-radar/ros2_radar_ws/src/mmwave_radar_driver', 'symlink_install': False, 'test_result_base': None}
+[1.616s] Level 5:colcon.colcon_core.verb:set package 'usb_cam_tuner' build argument 'cmake_args' from command line to 'None'
+[1.616s] Level 5:colcon.colcon_core.verb:set package 'usb_cam_tuner' build argument 'cmake_target' from command line to 'None'
+[1.616s] Level 5:colcon.colcon_core.verb:set package 'usb_cam_tuner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.616s] Level 5:colcon.colcon_core.verb:set package 'usb_cam_tuner' build argument 'cmake_clean_cache' from command line to 'False'
+[1.616s] Level 5:colcon.colcon_core.verb:set package 'usb_cam_tuner' build argument 'cmake_clean_first' from command line to 'False'
+[1.616s] Level 5:colcon.colcon_core.verb:set package 'usb_cam_tuner' build argument 'cmake_force_configure' from command line to 'False'
+[1.616s] Level 5:colcon.colcon_core.verb:set package 'usb_cam_tuner' build argument 'ament_cmake_args' from command line to 'None'
+[1.617s] Level 5:colcon.colcon_core.verb:set package 'usb_cam_tuner' build argument 'catkin_cmake_args' from command line to 'None'
+[1.617s] Level 5:colcon.colcon_core.verb:set package 'usb_cam_tuner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.617s] DEBUG:colcon.colcon_core.verb:Building package 'usb_cam_tuner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/airl-radar/ros2_radar_ws/src/build/usb_cam_tuner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/airl-radar/ros2_radar_ws/src/install/usb_cam_tuner', 'merge_install': False, 'path': '/home/airl-radar/ros2_radar_ws/src/usb_cam_tuner', 'symlink_install': False, 'test_result_base': None}
+[1.617s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.621s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.622s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/airl-radar/ros2_radar_ws/src/mmwave_radar_driver' with build type 'ament_python'
+[1.623s] Level 1:colcon.colcon_core.shell:create_environment_hook('mmwave_radar_driver', 'ament_prefix_path')
+[1.631s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.632s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/airl-radar/ros2_radar_ws/src/install/mmwave_radar_driver/share/mmwave_radar_driver/hook/ament_prefix_path.ps1'
+[1.635s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/airl-radar/ros2_radar_ws/src/install/mmwave_radar_driver/share/mmwave_radar_driver/hook/ament_prefix_path.dsv'
+[1.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/airl-radar/ros2_radar_ws/src/install/mmwave_radar_driver/share/mmwave_radar_driver/hook/ament_prefix_path.sh'
+[1.641s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.642s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.657s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/airl-radar/ros2_radar_ws/src/usb_cam_tuner' with build type 'ament_python'
+[1.658s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam_tuner', 'ament_prefix_path')
+[1.659s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/airl-radar/ros2_radar_ws/src/install/usb_cam_tuner/share/usb_cam_tuner/hook/ament_prefix_path.ps1'
+[1.662s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/airl-radar/ros2_radar_ws/src/install/usb_cam_tuner/share/usb_cam_tuner/hook/ament_prefix_path.dsv'
+[1.664s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/airl-radar/ros2_radar_ws/src/install/usb_cam_tuner/share/usb_cam_tuner/hook/ament_prefix_path.sh'
+[1.667s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.667s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.852s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/airl-radar/ros2_radar_ws/src/mmwave_radar_driver'
+[2.853s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.853s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.052s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/airl-radar/ros2_radar_ws/src/usb_cam_tuner'
+[4.054s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.054s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.839s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/airl-radar/ros2_radar_ws/src/build/mmwave_radar_driver': PS1=(radar_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/airl-radar/ros2_radar_ws/src/build/mmwave_radar_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/airl-radar/ros2_radar_ws/src/install/mmwave_radar_driver/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(radar_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/airl-radar/ros2_radar_ws/src/build/mmwave_radar_driver/build
+[5.867s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/airl-radar/ros2_radar_ws/src/usb_cam_tuner': PS1=(radar_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/airl-radar/ros2_radar_ws/src/build/usb_cam_tuner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/airl-radar/ros2_radar_ws/src/install/usb_cam_tuner/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(radar_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/usb_cam_tuner build --build-base /home/airl-radar/ros2_radar_ws/src/build/usb_cam_tuner/build install --record /home/airl-radar/ros2_radar_ws/src/build/usb_cam_tuner/install.log --single-version-externally-managed install_data
+[7.646s] Level 1:colcon.colcon_core.environment:checking '/home/airl-radar/ros2_radar_ws/src/install/usb_cam_tuner' for CMake module files
+[7.649s] Level 1:colcon.colcon_core.environment:checking '/home/airl-radar/ros2_radar_ws/src/install/usb_cam_tuner' for CMake config files
+[7.652s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/airl-radar/ros2_radar_ws/src/usb_cam_tuner' returned '0': PS1=(radar_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/airl-radar/ros2_radar_ws/src/build/usb_cam_tuner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/airl-radar/ros2_radar_ws/src/install/usb_cam_tuner/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(radar_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/usb_cam_tuner build --build-base /home/airl-radar/ros2_radar_ws/src/build/usb_cam_tuner/build install --record /home/airl-radar/ros2_radar_ws/src/build/usb_cam_tuner/install.log --single-version-externally-managed install_data
+[7.655s] Level 1:colcon.colcon_core.environment:checking '/home/airl-radar/ros2_radar_ws/src/install/usb_cam_tuner/lib'
+[7.656s] Level 1:colcon.colcon_core.environment:checking '/home/airl-radar/ros2_radar_ws/src/install/usb_cam_tuner/bin'
+[7.656s] Level 1:colcon.colcon_core.environment:checking '/home/airl-radar/ros2_radar_ws/src/install/usb_cam_tuner/lib/pkgconfig/usb_cam_tuner.pc'
+[7.658s] Level 1:colcon.colcon_core.environment:checking '/home/airl-radar/ros2_radar_ws/src/install/usb_cam_tuner/lib/python3.10/site-packages'
+[7.658s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam_tuner', 'pythonpath')
+[7.659s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/airl-radar/ros2_radar_ws/src/install/usb_cam_tuner/share/usb_cam_tuner/hook/pythonpath.ps1'
+[7.661s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/airl-radar/ros2_radar_ws/src/install/usb_cam_tuner/share/usb_cam_tuner/hook/pythonpath.dsv'
+[7.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/airl-radar/ros2_radar_ws/src/install/usb_cam_tuner/share/usb_cam_tuner/hook/pythonpath.sh'
+[7.666s] Level 1:colcon.colcon_core.environment:checking '/home/airl-radar/ros2_radar_ws/src/install/usb_cam_tuner/bin'
+[7.666s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(usb_cam_tuner)
+[7.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/airl-radar/ros2_radar_ws/src/install/usb_cam_tuner/share/usb_cam_tuner/package.ps1'
+[7.672s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/airl-radar/ros2_radar_ws/src/install/usb_cam_tuner/share/usb_cam_tuner/package.dsv'
+[7.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/airl-radar/ros2_radar_ws/src/install/usb_cam_tuner/share/usb_cam_tuner/package.sh'
+[7.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/airl-radar/ros2_radar_ws/src/install/usb_cam_tuner/share/usb_cam_tuner/package.bash'
+[7.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/airl-radar/ros2_radar_ws/src/install/usb_cam_tuner/share/usb_cam_tuner/package.zsh'
+[7.686s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/airl-radar/ros2_radar_ws/src/install/usb_cam_tuner/share/colcon-core/packages/usb_cam_tuner)
+[8.611s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/airl-radar/ros2_radar_ws/src/build/mmwave_radar_driver' returned '0': PS1=(radar_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/airl-radar/ros2_radar_ws/src/build/mmwave_radar_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/airl-radar/ros2_radar_ws/src/install/mmwave_radar_driver/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(radar_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/airl-radar/ros2_radar_ws/src/build/mmwave_radar_driver/build
+[8.615s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/airl-radar/ros2_radar_ws/src/mmwave_radar_driver': PS1=(radar_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/airl-radar/ros2_radar_ws/src/build/mmwave_radar_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/airl-radar/ros2_radar_ws/src/install/mmwave_radar_driver/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(radar_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/mmwave_radar_driver build --build-base /home/airl-radar/ros2_radar_ws/src/build/mmwave_radar_driver/build install --record /home/airl-radar/ros2_radar_ws/src/build/mmwave_radar_driver/install.log --single-version-externally-managed install_data --force
+[10.496s] Level 1:colcon.colcon_core.environment:checking '/home/airl-radar/ros2_radar_ws/src/install/mmwave_radar_driver' for CMake module files
+[10.499s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/airl-radar/ros2_radar_ws/src/mmwave_radar_driver' returned '0': PS1=(radar_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/airl-radar/ros2_radar_ws/src/build/mmwave_radar_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/airl-radar/ros2_radar_ws/src/install/mmwave_radar_driver/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(radar_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/mmwave_radar_driver build --build-base /home/airl-radar/ros2_radar_ws/src/build/mmwave_radar_driver/build install --record /home/airl-radar/ros2_radar_ws/src/build/mmwave_radar_driver/install.log --single-version-externally-managed install_data --force
+[10.501s] Level 1:colcon.colcon_core.environment:checking '/home/airl-radar/ros2_radar_ws/src/install/mmwave_radar_driver' for CMake config files
+[10.506s] Level 1:colcon.colcon_core.environment:checking '/home/airl-radar/ros2_radar_ws/src/install/mmwave_radar_driver/lib'
+[10.507s] Level 1:colcon.colcon_core.environment:checking '/home/airl-radar/ros2_radar_ws/src/install/mmwave_radar_driver/bin'
+[10.508s] Level 1:colcon.colcon_core.environment:checking '/home/airl-radar/ros2_radar_ws/src/install/mmwave_radar_driver/lib/pkgconfig/mmwave_radar_driver.pc'
+[10.509s] Level 1:colcon.colcon_core.environment:checking '/home/airl-radar/ros2_radar_ws/src/install/mmwave_radar_driver/lib/python3.10/site-packages'
+[10.509s] Level 1:colcon.colcon_core.shell:create_environment_hook('mmwave_radar_driver', 'pythonpath')
+[10.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/airl-radar/ros2_radar_ws/src/install/mmwave_radar_driver/share/mmwave_radar_driver/hook/pythonpath.ps1'
+[10.513s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/airl-radar/ros2_radar_ws/src/install/mmwave_radar_driver/share/mmwave_radar_driver/hook/pythonpath.dsv'
+[10.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/airl-radar/ros2_radar_ws/src/install/mmwave_radar_driver/share/mmwave_radar_driver/hook/pythonpath.sh'
+[10.521s] Level 1:colcon.colcon_core.environment:checking '/home/airl-radar/ros2_radar_ws/src/install/mmwave_radar_driver/bin'
+[10.522s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mmwave_radar_driver)
+[10.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/airl-radar/ros2_radar_ws/src/install/mmwave_radar_driver/share/mmwave_radar_driver/package.ps1'
+[10.527s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/airl-radar/ros2_radar_ws/src/install/mmwave_radar_driver/share/mmwave_radar_driver/package.dsv'
+[10.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/airl-radar/ros2_radar_ws/src/install/mmwave_radar_driver/share/mmwave_radar_driver/package.sh'
+[10.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/airl-radar/ros2_radar_ws/src/install/mmwave_radar_driver/share/mmwave_radar_driver/package.bash'
+[10.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/airl-radar/ros2_radar_ws/src/install/mmwave_radar_driver/share/mmwave_radar_driver/package.zsh'
+[10.540s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/airl-radar/ros2_radar_ws/src/install/mmwave_radar_driver/share/colcon-core/packages/mmwave_radar_driver)
+[10.542s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.543s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.543s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.544s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.569s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.570s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.570s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.625s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.626s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/airl-radar/ros2_radar_ws/src/install/local_setup.ps1'
+[10.633s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/airl-radar/ros2_radar_ws/src/install/_local_setup_util_ps1.py'
+[10.642s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/airl-radar/ros2_radar_ws/src/install/setup.ps1'
+[10.650s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/airl-radar/ros2_radar_ws/src/install/local_setup.sh'
+[10.656s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/airl-radar/ros2_radar_ws/src/install/_local_setup_util_sh.py'
+[10.661s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/airl-radar/ros2_radar_ws/src/install/setup.sh'
+[10.668s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/airl-radar/ros2_radar_ws/src/install/local_setup.bash'
+[10.672s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/airl-radar/ros2_radar_ws/src/install/setup.bash'
+[10.679s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/airl-radar/ros2_radar_ws/src/install/local_setup.zsh'
+[10.684s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/airl-radar/ros2_radar_ws/src/install/setup.zsh'

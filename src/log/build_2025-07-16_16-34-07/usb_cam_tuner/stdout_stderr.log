@@ -1,0 +1,38 @@
+running egg_info
+creating ../build/usb_cam_tuner/usb_cam_tuner.egg-info
+writing ../build/usb_cam_tuner/usb_cam_tuner.egg-info/PKG-INFO
+writing dependency_links to ../build/usb_cam_tuner/usb_cam_tuner.egg-info/dependency_links.txt
+writing entry points to ../build/usb_cam_tuner/usb_cam_tuner.egg-info/entry_points.txt
+writing requirements to ../build/usb_cam_tuner/usb_cam_tuner.egg-info/requires.txt
+writing top-level names to ../build/usb_cam_tuner/usb_cam_tuner.egg-info/top_level.txt
+writing manifest file '../build/usb_cam_tuner/usb_cam_tuner.egg-info/SOURCES.txt'
+reading manifest file '../build/usb_cam_tuner/usb_cam_tuner.egg-info/SOURCES.txt'
+writing manifest file '../build/usb_cam_tuner/usb_cam_tuner.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/airl-radar/ros2_radar_ws/src/build/usb_cam_tuner/build
+creating /home/airl-radar/ros2_radar_ws/src/build/usb_cam_tuner/build/lib
+creating /home/airl-radar/ros2_radar_ws/src/build/usb_cam_tuner/build/lib/usb_cam_tuner
+copying usb_cam_tuner/tuner_node.py -> /home/airl-radar/ros2_radar_ws/src/build/usb_cam_tuner/build/lib/usb_cam_tuner
+copying usb_cam_tuner/__init__.py -> /home/airl-radar/ros2_radar_ws/src/build/usb_cam_tuner/build/lib/usb_cam_tuner
+running install
+running install_lib
+creating /home/airl-radar/ros2_radar_ws/src/install/usb_cam_tuner/lib/python3.10/site-packages/usb_cam_tuner
+copying /home/airl-radar/ros2_radar_ws/src/build/usb_cam_tuner/build/lib/usb_cam_tuner/tuner_node.py -> /home/airl-radar/ros2_radar_ws/src/install/usb_cam_tuner/lib/python3.10/site-packages/usb_cam_tuner
+copying /home/airl-radar/ros2_radar_ws/src/build/usb_cam_tuner/build/lib/usb_cam_tuner/__init__.py -> /home/airl-radar/ros2_radar_ws/src/install/usb_cam_tuner/lib/python3.10/site-packages/usb_cam_tuner
+byte-compiling /home/airl-radar/ros2_radar_ws/src/install/usb_cam_tuner/lib/python3.10/site-packages/usb_cam_tuner/tuner_node.py to tuner_node.cpython-310.pyc
+byte-compiling /home/airl-radar/ros2_radar_ws/src/install/usb_cam_tuner/lib/python3.10/site-packages/usb_cam_tuner/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/airl-radar/ros2_radar_ws/src/install/usb_cam_tuner/share/ament_index
+creating /home/airl-radar/ros2_radar_ws/src/install/usb_cam_tuner/share/ament_index/resource_index
+creating /home/airl-radar/ros2_radar_ws/src/install/usb_cam_tuner/share/ament_index/resource_index/packages
+copying resource/usb_cam_tuner -> /home/airl-radar/ros2_radar_ws/src/install/usb_cam_tuner/share/ament_index/resource_index/packages
+copying package.xml -> /home/airl-radar/ros2_radar_ws/src/install/usb_cam_tuner/share/usb_cam_tuner
+creating /home/airl-radar/ros2_radar_ws/src/install/usb_cam_tuner/share/usb_cam_tuner/launch
+copying launch/usb_cam_tuner.launch.py -> /home/airl-radar/ros2_radar_ws/src/install/usb_cam_tuner/share/usb_cam_tuner/launch
+copying launch/rpi_cam_input.launch.py -> /home/airl-radar/ros2_radar_ws/src/install/usb_cam_tuner/share/usb_cam_tuner/launch
+running install_egg_info
+Copying ../build/usb_cam_tuner/usb_cam_tuner.egg-info to /home/airl-radar/ros2_radar_ws/src/install/usb_cam_tuner/lib/python3.10/site-packages/usb_cam_tuner-0.0.0-py3.10.egg-info
+running install_scripts
+Installing tuner_node script to /home/airl-radar/ros2_radar_ws/src/install/usb_cam_tuner/lib/usb_cam_tuner
+writing list of installed files to '/home/airl-radar/ros2_radar_ws/src/build/usb_cam_tuner/install.log'

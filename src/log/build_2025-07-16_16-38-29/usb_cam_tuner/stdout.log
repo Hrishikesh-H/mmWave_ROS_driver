@@ -1,0 +1,19 @@
+running egg_info
+writing ../build/usb_cam_tuner/usb_cam_tuner.egg-info/PKG-INFO
+writing dependency_links to ../build/usb_cam_tuner/usb_cam_tuner.egg-info/dependency_links.txt
+writing entry points to ../build/usb_cam_tuner/usb_cam_tuner.egg-info/entry_points.txt
+writing requirements to ../build/usb_cam_tuner/usb_cam_tuner.egg-info/requires.txt
+writing top-level names to ../build/usb_cam_tuner/usb_cam_tuner.egg-info/top_level.txt
+reading manifest file '../build/usb_cam_tuner/usb_cam_tuner.egg-info/SOURCES.txt'
+writing manifest file '../build/usb_cam_tuner/usb_cam_tuner.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/airl-radar/ros2_radar_ws/src/install/usb_cam_tuner/lib/python3.10/site-packages/usb_cam_tuner-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/usb_cam_tuner/usb_cam_tuner.egg-info to /home/airl-radar/ros2_radar_ws/src/install/usb_cam_tuner/lib/python3.10/site-packages/usb_cam_tuner-0.0.0-py3.10.egg-info
+running install_scripts
+Installing tuner_node script to /home/airl-radar/ros2_radar_ws/src/install/usb_cam_tuner/lib/usb_cam_tuner
+writing list of installed files to '/home/airl-radar/ros2_radar_ws/src/build/usb_cam_tuner/install.log'

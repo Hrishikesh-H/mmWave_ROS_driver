@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating mmwave_radar_driver.egg-info
+writing mmwave_radar_driver.egg-info/PKG-INFO
+writing dependency_links to mmwave_radar_driver.egg-info/dependency_links.txt
+writing entry points to mmwave_radar_driver.egg-info/entry_points.txt
+writing requirements to mmwave_radar_driver.egg-info/requires.txt
+writing top-level names to mmwave_radar_driver.egg-info/top_level.txt
+writing manifest file 'mmwave_radar_driver.egg-info/SOURCES.txt'
+reading manifest file 'mmwave_radar_driver.egg-info/SOURCES.txt'
+writing manifest file 'mmwave_radar_driver.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/airl-radar/ros2_radar_ws/src/install/mmwave_radar_driver/lib/python3.10/site-packages/mmwave-radar-driver.egg-link (link to .)
+Installing radar_parser script to /home/airl-radar/ros2_radar_ws/src/install/mmwave_radar_driver/lib/mmwave_radar_driver
+
+Installed /home/airl-radar/ros2_radar_ws/src/build/mmwave_radar_driver
+running symlink_data
+creating /home/airl-radar/ros2_radar_ws/src/install/mmwave_radar_driver/share/ament_index
+creating /home/airl-radar/ros2_radar_ws/src/install/mmwave_radar_driver/share/ament_index/resource_index
+creating /home/airl-radar/ros2_radar_ws/src/install/mmwave_radar_driver/share/ament_index/resource_index/packages
+symbolically linking /home/airl-radar/ros2_radar_ws/src/build/mmwave_radar_driver/resource/mmwave_radar_driver -> /home/airl-radar/ros2_radar_ws/src/install/mmwave_radar_driver/share/ament_index/resource_index/packages
+symbolically linking /home/airl-radar/ros2_radar_ws/src/build/mmwave_radar_driver/package.xml -> /home/airl-radar/ros2_radar_ws/src/install/mmwave_radar_driver/share/mmwave_radar_driver

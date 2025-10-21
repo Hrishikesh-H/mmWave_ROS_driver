@@ -1,0 +1,32 @@
+running develop
+Removing /home/airl-radar/ros2_radar_ws/install/mmwave_radar_driver/lib/python3.10/site-packages/mmwave-radar-driver.egg-link (link to .)
+running egg_info
+writing ../../build/mmwave_radar_driver/mmwave_radar_driver.egg-info/PKG-INFO
+writing dependency_links to ../../build/mmwave_radar_driver/mmwave_radar_driver.egg-info/dependency_links.txt
+writing entry points to ../../build/mmwave_radar_driver/mmwave_radar_driver.egg-info/entry_points.txt
+writing requirements to ../../build/mmwave_radar_driver/mmwave_radar_driver.egg-info/requires.txt
+writing top-level names to ../../build/mmwave_radar_driver/mmwave_radar_driver.egg-info/top_level.txt
+reading manifest file '../../build/mmwave_radar_driver/mmwave_radar_driver.egg-info/SOURCES.txt'
+writing manifest file '../../build/mmwave_radar_driver/mmwave_radar_driver.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/airl-radar/ros2_radar_ws/build/mmwave_radar_driver/build
+creating /home/airl-radar/ros2_radar_ws/build/mmwave_radar_driver/build/lib
+creating /home/airl-radar/ros2_radar_ws/build/mmwave_radar_driver/build/lib/mmwave_radar_driver
+copying mmwave_radar_driver/radar_parser_node.py -> /home/airl-radar/ros2_radar_ws/build/mmwave_radar_driver/build/lib/mmwave_radar_driver
+copying mmwave_radar_driver/__init__.py -> /home/airl-radar/ros2_radar_ws/build/mmwave_radar_driver/build/lib/mmwave_radar_driver
+running install
+running install_lib
+copying /home/airl-radar/ros2_radar_ws/build/mmwave_radar_driver/build/lib/mmwave_radar_driver/radar_parser_node.py -> /home/airl-radar/ros2_radar_ws/install/mmwave_radar_driver/lib/python3.10/site-packages/mmwave_radar_driver
+copying /home/airl-radar/ros2_radar_ws/build/mmwave_radar_driver/build/lib/mmwave_radar_driver/__init__.py -> /home/airl-radar/ros2_radar_ws/install/mmwave_radar_driver/lib/python3.10/site-packages/mmwave_radar_driver
+byte-compiling /home/airl-radar/ros2_radar_ws/install/mmwave_radar_driver/lib/python3.10/site-packages/mmwave_radar_driver/radar_parser_node.py to radar_parser_node.cpython-310.pyc
+byte-compiling /home/airl-radar/ros2_radar_ws/install/mmwave_radar_driver/lib/python3.10/site-packages/mmwave_radar_driver/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/mmwave_radar_driver -> /home/airl-radar/ros2_radar_ws/install/mmwave_radar_driver/share/ament_index/resource_index/packages
+copying package.xml -> /home/airl-radar/ros2_radar_ws/install/mmwave_radar_driver/share/mmwave_radar_driver
+copying mmwave_radar_driver/best_res_4cm.cfg -> /home/airl-radar/ros2_radar_ws/install/mmwave_radar_driver/lib/python3.10/site-packages/mmwave_radar_driver
+running install_egg_info
+Copying ../../build/mmwave_radar_driver/mmwave_radar_driver.egg-info to /home/airl-radar/ros2_radar_ws/install/mmwave_radar_driver/lib/python3.10/site-packages/mmwave_radar_driver-0.0.0-py3.10.egg-info
+running install_scripts
+Installing radar_parser script to /home/airl-radar/ros2_radar_ws/install/mmwave_radar_driver/lib/mmwave_radar_driver
+writing list of installed files to '/home/airl-radar/ros2_radar_ws/build/mmwave_radar_driver/install.log'

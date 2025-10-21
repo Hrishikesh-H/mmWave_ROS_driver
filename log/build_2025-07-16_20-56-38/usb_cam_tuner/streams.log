@@ -1,0 +1,17 @@
+[4.913s] Invoking command in '/home/airl-radar/ros2_radar_ws/build/usb_cam_tuner': PS1=(radar_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/airl-radar/ros2_radar_ws/build/usb_cam_tuner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/airl-radar/ros2_radar_ws/install/usb_cam_tuner/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(radar_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/airl-radar/ros2_radar_ws/build/usb_cam_tuner/build --no-deps symlink_data
+[9.150s] running develop
+[12.721s] running egg_info
+[12.726s] writing usb_cam_tuner.egg-info/PKG-INFO
+[12.732s] writing dependency_links to usb_cam_tuner.egg-info/dependency_links.txt
+[12.737s] writing entry points to usb_cam_tuner.egg-info/entry_points.txt
+[12.744s] writing requirements to usb_cam_tuner.egg-info/requires.txt
+[12.752s] writing top-level names to usb_cam_tuner.egg-info/top_level.txt
+[12.780s] reading manifest file 'usb_cam_tuner.egg-info/SOURCES.txt'
+[12.788s] writing manifest file 'usb_cam_tuner.egg-info/SOURCES.txt'
+[12.801s] running build_ext
+[12.806s] Creating /home/airl-radar/ros2_radar_ws/install/usb_cam_tuner/lib/python3.10/site-packages/usb-cam-tuner.egg-link (link to .)
+[12.816s] Installing tuner_node script to /home/airl-radar/ros2_radar_ws/install/usb_cam_tuner/lib/usb_cam_tuner
+[12.824s] 
+[12.829s] Installed /home/airl-radar/ros2_radar_ws/build/usb_cam_tuner
+[12.834s] running symlink_data
+[13.262s] Invoked command in '/home/airl-radar/ros2_radar_ws/build/usb_cam_tuner' returned '0': PS1=(radar_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/airl-radar/ros2_radar_ws/build/usb_cam_tuner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/airl-radar/ros2_radar_ws/install/usb_cam_tuner/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(radar_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/airl-radar/ros2_radar_ws/build/usb_cam_tuner/build --no-deps symlink_data

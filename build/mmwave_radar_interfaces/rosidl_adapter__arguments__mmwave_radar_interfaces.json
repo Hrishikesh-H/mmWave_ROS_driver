@@ -1,0 +1,10 @@
+{
+  "package_name": "mmwave_radar_interfaces",
+  "non_idl_tuples": [
+    "/home/airl-radar/ros2_radar_ws/src/mmwave_radar_interfaces:msg/Header.msg",
+    "/home/airl-radar/ros2_radar_ws/src/mmwave_radar_interfaces:msg/DetectedObjects.msg",
+    "/home/airl-radar/ros2_radar_ws/src/mmwave_radar_interfaces:msg/SNRNoise.msg",
+    "/home/airl-radar/ros2_radar_ws/src/mmwave_radar_interfaces:msg/RawPacket.msg",
+    "/home/airl-radar/ros2_radar_ws/src/mmwave_radar_interfaces:msg/Heartbeat.msg"
+  ]
+}

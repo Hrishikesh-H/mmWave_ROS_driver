@@ -1,0 +1,111 @@
+[0.000000] (-) TimerEvent: {}
+[0.001654] (-) JobUnselected: {'identifier': 'mmwave_radar_interfaces'}
+[0.002397] (-) JobUnselected: {'identifier': 'usb_cam_tuner'}
+[0.002910] (mmwave_radar_driver) JobQueued: {'identifier': 'mmwave_radar_driver', 'dependencies': OrderedDict([('mmwave_radar_interfaces', '/home/airl-radar/ros2_radar_ws/install/mmwave_radar_interfaces')])}
+[0.003117] (mmwave_radar_driver) JobStarted: {'identifier': 'mmwave_radar_driver'}
+[0.099032] (-) TimerEvent: {}
+[0.199794] (-) TimerEvent: {}
+[0.300545] (-) TimerEvent: {}
+[0.401268] (-) TimerEvent: {}
+[0.501942] (-) TimerEvent: {}
+[0.602605] (-) TimerEvent: {}
+[0.703259] (-) TimerEvent: {}
+[0.803928] (-) TimerEvent: {}
+[0.904622] (-) TimerEvent: {}
+[1.005570] (-) TimerEvent: {}
+[1.106291] (-) TimerEvent: {}
+[1.207035] (-) TimerEvent: {}
+[1.307905] (-) TimerEvent: {}
+[1.410006] (-) TimerEvent: {}
+[1.510832] (-) TimerEvent: {}
+[1.611539] (-) TimerEvent: {}
+[1.712272] (-) TimerEvent: {}
+[1.812961] (-) TimerEvent: {}
+[1.913645] (-) TimerEvent: {}
+[2.014366] (-) TimerEvent: {}
+[2.115034] (-) TimerEvent: {}
+[2.215689] (-) TimerEvent: {}
+[2.316365] (-) TimerEvent: {}
+[2.417054] (-) TimerEvent: {}
+[2.518078] (-) TimerEvent: {}
+[2.618802] (-) TimerEvent: {}
+[2.719498] (-) TimerEvent: {}
+[2.820187] (-) TimerEvent: {}
+[2.921010] (-) TimerEvent: {}
+[3.022262] (-) TimerEvent: {}
+[3.027832] (mmwave_radar_driver) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/airl-radar/ros2_radar_ws/build/mmwave_radar_driver/build'], 'cwd': '/home/airl-radar/ros2_radar_ws/build/mmwave_radar_driver', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'airl-radar', 'SSH_CLIENT': '192.168.0.131 57371 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/airl-radar/ros2_radar_ws/install/mmwave_radar_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/airl-radar', 'OLDPWD': '/home/airl-radar', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'PS1': '(radar_env) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/airl-radar/ros2_radar_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'airl-radar', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/airl-radar/radar_env/bin:/home/airl-radar/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'VIRTUAL_ENV_PROMPT': '(radar_env)', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/airl-radar/ros2_radar_ws/install/usb_cam_tuner:/home/airl-radar/ros2_radar_ws/install/mmwave_radar_driver:/home/airl-radar/ros2_radar_ws/install/mmwave_radar_interfaces', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/home/airl-radar/radar_env', 'PWD': '/home/airl-radar/ros2_radar_ws/build/mmwave_radar_driver', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.131 57371 192.168.0.137 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/airl-radar/ros2_radar_ws/build/mmwave_radar_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/airl-radar/ros2_radar_ws/install/mmwave_radar_driver/lib/python3.10/site-packages:/home/airl-radar/ros2_radar_ws/install/mmwave_radar_interfaces/lib/python3.10/site-packages:/home/airl-radar/ros2_radar_ws/build/usb_cam_tuner:/home/airl-radar/ros2_radar_ws/install/usb_cam_tuner/lib/python3.10/site-packages:/home/airl-radar/ros2_radar_ws/build/mmwave_radar_driver:/home/airl-radar/ros2_radar_ws/install/mmwave_radar_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/airl-radar/radar_env/lib/python3.10/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/airl-radar/ros2_radar_ws/install/mmwave_radar_interfaces'}, 'shell': False}
+[3.122449] (-) TimerEvent: {}
+[3.223329] (-) TimerEvent: {}
+[3.324357] (-) TimerEvent: {}
+[3.425178] (-) TimerEvent: {}
+[3.525848] (-) TimerEvent: {}
+[3.626529] (-) TimerEvent: {}
+[3.727317] (-) TimerEvent: {}
+[3.827962] (-) TimerEvent: {}
+[3.928710] (-) TimerEvent: {}
+[4.029520] (-) TimerEvent: {}
+[4.130234] (-) TimerEvent: {}
+[4.230957] (-) TimerEvent: {}
+[4.331705] (-) TimerEvent: {}
+[4.342168] (mmwave_radar_driver) StdoutLine: {'line': b'running develop\n'}
+[4.431864] (-) TimerEvent: {}
+[4.532551] (-) TimerEvent: {}
+[4.633208] (-) TimerEvent: {}
+[4.733857] (-) TimerEvent: {}
+[4.834577] (-) TimerEvent: {}
+[4.935249] (-) TimerEvent: {}
+[5.035939] (-) TimerEvent: {}
+[5.136639] (-) TimerEvent: {}
+[5.183124] (mmwave_radar_driver) StdoutLine: {'line': b'Removing /home/airl-radar/ros2_radar_ws/install/mmwave_radar_driver/lib/python3.10/site-packages/mmwave-radar-driver.egg-link (link to .)\n'}
+[5.236904] (-) TimerEvent: {}
+[5.318290] (mmwave_radar_driver) CommandEnded: {'returncode': 0}
+[5.321951] (mmwave_radar_driver) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/mmwave_radar_driver', 'build', '--build-base', '/home/airl-radar/ros2_radar_ws/build/mmwave_radar_driver/build', 'install', '--record', '/home/airl-radar/ros2_radar_ws/build/mmwave_radar_driver/install.log', '--single-version-externally-managed', 'install_data', '--force'], 'cwd': '/home/airl-radar/ros2_radar_ws/src/mmwave_radar_driver', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'airl-radar', 'SSH_CLIENT': '192.168.0.131 57371 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/airl-radar/ros2_radar_ws/install/mmwave_radar_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/airl-radar', 'OLDPWD': '/home/airl-radar', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'PS1': '(radar_env) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/airl-radar/ros2_radar_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'airl-radar', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/airl-radar/radar_env/bin:/home/airl-radar/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'VIRTUAL_ENV_PROMPT': '(radar_env)', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/airl-radar/ros2_radar_ws/install/usb_cam_tuner:/home/airl-radar/ros2_radar_ws/install/mmwave_radar_driver:/home/airl-radar/ros2_radar_ws/install/mmwave_radar_interfaces', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/home/airl-radar/radar_env', 'PWD': '/home/airl-radar/ros2_radar_ws/build/mmwave_radar_driver', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.131 57371 192.168.0.137 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/airl-radar/ros2_radar_ws/build/mmwave_radar_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/airl-radar/ros2_radar_ws/install/mmwave_radar_driver/lib/python3.10/site-packages:/home/airl-radar/ros2_radar_ws/install/mmwave_radar_interfaces/lib/python3.10/site-packages:/home/airl-radar/ros2_radar_ws/build/usb_cam_tuner:/home/airl-radar/ros2_radar_ws/install/usb_cam_tuner/lib/python3.10/site-packages:/home/airl-radar/ros2_radar_ws/build/mmwave_radar_driver:/home/airl-radar/ros2_radar_ws/install/mmwave_radar_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/airl-radar/radar_env/lib/python3.10/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/airl-radar/ros2_radar_ws/install/mmwave_radar_interfaces'}, 'shell': False}
+[5.337155] (-) TimerEvent: {}
+[5.438045] (-) TimerEvent: {}
+[5.538750] (-) TimerEvent: {}
+[5.639460] (-) TimerEvent: {}
+[5.740213] (-) TimerEvent: {}
+[5.840932] (-) TimerEvent: {}
+[5.941605] (-) TimerEvent: {}
+[6.042271] (-) TimerEvent: {}
+[6.142905] (-) TimerEvent: {}
+[6.243610] (-) TimerEvent: {}
+[6.344428] (-) TimerEvent: {}
+[6.445131] (-) TimerEvent: {}
+[6.545872] (-) TimerEvent: {}
+[6.559730] (mmwave_radar_driver) StdoutLine: {'line': b'running egg_info\n'}
+[6.563086] (mmwave_radar_driver) StdoutLine: {'line': b'writing ../../build/mmwave_radar_driver/mmwave_radar_driver.egg-info/PKG-INFO\n'}
+[6.564285] (mmwave_radar_driver) StdoutLine: {'line': b'writing dependency_links to ../../build/mmwave_radar_driver/mmwave_radar_driver.egg-info/dependency_links.txt\n'}
+[6.565425] (mmwave_radar_driver) StdoutLine: {'line': b'writing entry points to ../../build/mmwave_radar_driver/mmwave_radar_driver.egg-info/entry_points.txt\n'}
+[6.566348] (mmwave_radar_driver) StdoutLine: {'line': b'writing requirements to ../../build/mmwave_radar_driver/mmwave_radar_driver.egg-info/requires.txt\n'}
+[6.567120] (mmwave_radar_driver) StdoutLine: {'line': b'writing top-level names to ../../build/mmwave_radar_driver/mmwave_radar_driver.egg-info/top_level.txt\n'}
+[6.581320] (mmwave_radar_driver) StdoutLine: {'line': b"reading manifest file '../../build/mmwave_radar_driver/mmwave_radar_driver.egg-info/SOURCES.txt'\n"}
+[6.585464] (mmwave_radar_driver) StdoutLine: {'line': b"writing manifest file '../../build/mmwave_radar_driver/mmwave_radar_driver.egg-info/SOURCES.txt'\n"}
+[6.586640] (mmwave_radar_driver) StdoutLine: {'line': b'running build\n'}
+[6.587231] (mmwave_radar_driver) StdoutLine: {'line': b'running build_py\n'}
+[6.588427] (mmwave_radar_driver) StdoutLine: {'line': b'creating /home/airl-radar/ros2_radar_ws/build/mmwave_radar_driver/build\n'}
+[6.589075] (mmwave_radar_driver) StdoutLine: {'line': b'creating /home/airl-radar/ros2_radar_ws/build/mmwave_radar_driver/build/lib\n'}
+[6.589512] (mmwave_radar_driver) StdoutLine: {'line': b'creating /home/airl-radar/ros2_radar_ws/build/mmwave_radar_driver/build/lib/mmwave_radar_driver\n'}
+[6.589875] (mmwave_radar_driver) StdoutLine: {'line': b'copying mmwave_radar_driver/radar_parser_node.py -> /home/airl-radar/ros2_radar_ws/build/mmwave_radar_driver/build/lib/mmwave_radar_driver\n'}
+[6.590367] (mmwave_radar_driver) StdoutLine: {'line': b'copying mmwave_radar_driver/__init__.py -> /home/airl-radar/ros2_radar_ws/build/mmwave_radar_driver/build/lib/mmwave_radar_driver\n'}
+[6.590734] (mmwave_radar_driver) StdoutLine: {'line': b'running install\n'}
+[6.591319] (mmwave_radar_driver) StdoutLine: {'line': b'running install_lib\n'}
+[6.594526] (mmwave_radar_driver) StdoutLine: {'line': b'copying /home/airl-radar/ros2_radar_ws/build/mmwave_radar_driver/build/lib/mmwave_radar_driver/radar_parser_node.py -> /home/airl-radar/ros2_radar_ws/install/mmwave_radar_driver/lib/python3.10/site-packages/mmwave_radar_driver\n'}
+[6.595418] (mmwave_radar_driver) StdoutLine: {'line': b'copying /home/airl-radar/ros2_radar_ws/build/mmwave_radar_driver/build/lib/mmwave_radar_driver/__init__.py -> /home/airl-radar/ros2_radar_ws/install/mmwave_radar_driver/lib/python3.10/site-packages/mmwave_radar_driver\n'}
+[6.598286] (mmwave_radar_driver) StdoutLine: {'line': b'byte-compiling /home/airl-radar/ros2_radar_ws/install/mmwave_radar_driver/lib/python3.10/site-packages/mmwave_radar_driver/radar_parser_node.py to radar_parser_node.cpython-310.pyc\n'}
+[6.608391] (mmwave_radar_driver) StdoutLine: {'line': b'byte-compiling /home/airl-radar/ros2_radar_ws/install/mmwave_radar_driver/lib/python3.10/site-packages/mmwave_radar_driver/__init__.py to __init__.cpython-310.pyc\n'}
+[6.609463] (mmwave_radar_driver) StdoutLine: {'line': b'running install_data\n'}
+[6.610054] (mmwave_radar_driver) StdoutLine: {'line': b'copying resource/mmwave_radar_driver -> /home/airl-radar/ros2_radar_ws/install/mmwave_radar_driver/share/ament_index/resource_index/packages\n'}
+[6.610857] (mmwave_radar_driver) StdoutLine: {'line': b'copying package.xml -> /home/airl-radar/ros2_radar_ws/install/mmwave_radar_driver/share/mmwave_radar_driver\n'}
+[6.611790] (mmwave_radar_driver) StdoutLine: {'line': b'copying mmwave_radar_driver/best_res_4cm.cfg -> /home/airl-radar/ros2_radar_ws/install/mmwave_radar_driver/lib/python3.10/site-packages/mmwave_radar_driver\n'}
+[6.612511] (mmwave_radar_driver) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.619602] (mmwave_radar_driver) StdoutLine: {'line': b'Copying ../../build/mmwave_radar_driver/mmwave_radar_driver.egg-info to /home/airl-radar/ros2_radar_ws/install/mmwave_radar_driver/lib/python3.10/site-packages/mmwave_radar_driver-0.0.0-py3.10.egg-info\n'}
+[6.624969] (mmwave_radar_driver) StdoutLine: {'line': b'running install_scripts\n'}
+[6.646097] (-) TimerEvent: {}
+[6.697670] (mmwave_radar_driver) StdoutLine: {'line': b'Installing radar_parser script to /home/airl-radar/ros2_radar_ws/install/mmwave_radar_driver/lib/mmwave_radar_driver\n'}
+[6.699488] (mmwave_radar_driver) StdoutLine: {'line': b"writing list of installed files to '/home/airl-radar/ros2_radar_ws/build/mmwave_radar_driver/install.log'\n"}
+[6.746353] (-) TimerEvent: {}
+[6.825823] (mmwave_radar_driver) CommandEnded: {'returncode': 0}
+[6.846696] (-) TimerEvent: {}
+[6.877552] (mmwave_radar_driver) JobEnded: {'identifier': 'mmwave_radar_driver', 'rc': 0}
+[6.880451] (-) EventReactorShutdown: {}

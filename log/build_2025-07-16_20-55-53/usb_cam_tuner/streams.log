@@ -1,0 +1,27 @@
+[3.565s] Invoking command in '/home/airl-radar/ros2_radar_ws/build/usb_cam_tuner': PS1=(radar_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/airl-radar/ros2_radar_ws/build/usb_cam_tuner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/airl-radar/ros2_radar_ws/install/usb_cam_tuner/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(radar_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/airl-radar/ros2_radar_ws/build/usb_cam_tuner/build --no-deps symlink_data
+[5.132s] running develop
+[6.221s] running egg_info
+[6.223s] creating usb_cam_tuner.egg-info
+[6.223s] writing usb_cam_tuner.egg-info/PKG-INFO
+[6.224s] writing dependency_links to usb_cam_tuner.egg-info/dependency_links.txt
+[6.225s] writing entry points to usb_cam_tuner.egg-info/entry_points.txt
+[6.226s] writing requirements to usb_cam_tuner.egg-info/requires.txt
+[6.227s] writing top-level names to usb_cam_tuner.egg-info/top_level.txt
+[6.234s] writing manifest file 'usb_cam_tuner.egg-info/SOURCES.txt'
+[6.240s] reading manifest file 'usb_cam_tuner.egg-info/SOURCES.txt'
+[6.243s] writing manifest file 'usb_cam_tuner.egg-info/SOURCES.txt'
+[6.250s] running build_ext
+[6.251s] Creating /home/airl-radar/ros2_radar_ws/install/usb_cam_tuner/lib/python3.10/site-packages/usb-cam-tuner.egg-link (link to .)
+[6.254s] Installing tuner_node script to /home/airl-radar/ros2_radar_ws/install/usb_cam_tuner/lib/usb_cam_tuner
+[6.256s] 
+[6.256s] Installed /home/airl-radar/ros2_radar_ws/build/usb_cam_tuner
+[6.257s] running symlink_data
+[6.257s] creating /home/airl-radar/ros2_radar_ws/install/usb_cam_tuner/share/ament_index
+[6.258s] creating /home/airl-radar/ros2_radar_ws/install/usb_cam_tuner/share/ament_index/resource_index
+[6.259s] creating /home/airl-radar/ros2_radar_ws/install/usb_cam_tuner/share/ament_index/resource_index/packages
+[6.259s] symbolically linking /home/airl-radar/ros2_radar_ws/build/usb_cam_tuner/resource/usb_cam_tuner -> /home/airl-radar/ros2_radar_ws/install/usb_cam_tuner/share/ament_index/resource_index/packages
+[6.260s] symbolically linking /home/airl-radar/ros2_radar_ws/build/usb_cam_tuner/package.xml -> /home/airl-radar/ros2_radar_ws/install/usb_cam_tuner/share/usb_cam_tuner
+[6.260s] creating /home/airl-radar/ros2_radar_ws/install/usb_cam_tuner/share/usb_cam_tuner/launch
+[6.261s] symbolically linking /home/airl-radar/ros2_radar_ws/build/usb_cam_tuner/launch/usb_cam_tuner.launch.py -> /home/airl-radar/ros2_radar_ws/install/usb_cam_tuner/share/usb_cam_tuner/launch
+[6.263s] symbolically linking /home/airl-radar/ros2_radar_ws/build/usb_cam_tuner/launch/rpi_cam_input.launch.py -> /home/airl-radar/ros2_radar_ws/install/usb_cam_tuner/share/usb_cam_tuner/launch
+[6.409s] Invoked command in '/home/airl-radar/ros2_radar_ws/build/usb_cam_tuner' returned '0': PS1=(radar_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/airl-radar/ros2_radar_ws/build/usb_cam_tuner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/airl-radar/ros2_radar_ws/install/usb_cam_tuner/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(radar_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/airl-radar/ros2_radar_ws/build/usb_cam_tuner/build --no-deps symlink_data

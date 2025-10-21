@@ -1,0 +1,139 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /home/airl-radar/radar_env/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /home/airl-radar/radar_env/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /home/airl-radar/radar_env/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/airl-radar/ros2_radar_ws/build/mmwave_radar_interfaces
+[  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  3%] Built target ament_cmake_python_symlink_mmwave_radar_interfaces
+Traceback (most recent call last):
+  File "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 38, in <module>
+Traceback (most recent call last):
+  File "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 38, in <module>
+    sys.exit(main())
+  File "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 34, in main
+    generate_c(args.generator_arguments_file)
+    sys.exit(main())
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_c/__init__.py", line 37, in generate_c
+  File "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 34, in main
+Traceback (most recent call last):
+  File "/home/airl-radar/ros2_radar_ws/build/mmwave_radar_interfaces/ament_cmake_python/mmwave_radar_interfaces/setup.py", line 1, in <module>
+    return generate_files(
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 74, in generate_files
+    from setuptools import find_packages
+    generate_cpp(args.generator_arguments_file)
+  File "/home/airl-radar/radar_env/lib/python3.10/site-packages/setuptools/__init__.py", line 16, in <module>
+    idl_file = parse_idl_file(locator)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 64, in parse_idl_file
+    content = parse_idl_string(string, png_file=png_file)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 72, in parse_idl_string
+    tree = get_ast_from_idl_string(idl_string)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 88, in get_ast_from_idl_string
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py", line 39, in generate_cpp
+    _parser = Lark(grammar, start='specification', maybe_placeholders=False)
+  File "/home/airl-radar/radar_env/lib/python3.10/site-packages/lark/lark.py", line 351, in __init__
+    import setuptools.version
+  File "/home/airl-radar/radar_env/lib/python3.10/site-packages/setuptools/version.py", line 1, in <module>
+    return generate_files(
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 74, in generate_files
+    idl_file = parse_idl_file(locator)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 64, in parse_idl_file
+    content = parse_idl_string(string, png_file=png_file)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 72, in parse_idl_string
+    self.terminals, self.rules, self.ignore_tokens = self.grammar.compile(self.options.start, terminals_to_keep)
+  File "/home/airl-radar/radar_env/lib/python3.10/site-packages/lark/load_grammar.py", line 719, in compile
+    import pkg_resources
+  File "/home/airl-radar/radar_env/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3267, in <module>
+    tree = get_ast_from_idl_string(idl_string)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 88, in get_ast_from_idl_string
+    _parser = Lark(grammar, start='specification', maybe_placeholders=False)
+  File "/home/airl-radar/radar_env/lib/python3.10/site-packages/lark/lark.py", line 351, in __init__
+    self.terminals, self.rules, self.ignore_tokens = self.grammar.compile(self.options.start, terminals_to_keep)
+  File "/home/airl-radar/radar_env/lib/python3.10/site-packages/lark/load_grammar.py", line 675, in compile
+    tree = transformer.transform(rule_tree)
+    rule_defs = [(n, p, nr_deepcopy_tree(t), o) for n, p, t, o in self.rule_defs]
+  File "/home/airl-radar/radar_env/lib/python3.10/site-packages/lark/visitors.py", line 223, in transform
+  File "/home/airl-radar/radar_env/lib/python3.10/site-packages/lark/load_grammar.py", line 675, in <listcomp>
+    rule_defs = [(n, p, nr_deepcopy_tree(t), o) for n, p, t, o in self.rule_defs]
+  File "/home/airl-radar/radar_env/lib/python3.10/site-packages/lark/load_grammar.py", line 662, in nr_deepcopy_tree
+    return Transformer_NonRecursive(False).transform(t)
+  File "/home/airl-radar/radar_env/lib/python3.10/site-packages/lark/visitors.py", line 259, in transform
+    tree = t.transform(tree)
+  File "/home/airl-radar/radar_env/lib/python3.10/site-packages/lark/visitors.py", line 240, in transform
+    rev_postfix.append(t)
+KeyboardInterrupt
+    def _initialize_master_working_set():
+  File "/home/airl-radar/radar_env/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3241, in _call_aside
+    subtree.children = list(self._transform_children(subtree.children))
+  File "/home/airl-radar/radar_env/lib/python3.10/site-packages/lark/visitors.py", line 116, in _transform_children
+    yield self._transform_tree(c)
+  File "/home/airl-radar/radar_env/lib/python3.10/site-packages/lark/visitors.py", line 236, in _transform_tree
+    return self._call_userfunc(tree)
+  File "/home/airl-radar/radar_env/lib/python3.10/site-packages/lark/visitors.py", line 91, in _call_userfunc
+    f(*args, **kwargs)
+  File "/home/airl-radar/radar_env/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3279, in _initialize_master_working_set
+    return f.visit_wrapper(f, tree.data, children, tree.meta)
+  File "/home/airl-radar/radar_env/lib/python3.10/site-packages/lark/visitors.py", line 443, in _vargs_inline
+    return f(*children)
+  File "/home/airl-radar/radar_env/lib/python3.10/site-packages/lark/visitors.py", line 427, in f
+    working_set = WorkingSet._build_master()
+  File "/home/airl-radar/radar_env/lib/python3.10/site-packages/pkg_resources/__init__.py", line 564, in _build_master
+    return _f(self, *args, **kwargs)
+  File "/home/airl-radar/radar_env/lib/python3.10/site-packages/lark/load_grammar.py", line 575, in literal
+    ws = cls()
+  File "/home/airl-radar/radar_env/lib/python3.10/site-packages/pkg_resources/__init__.py", line 557, in __init__
+    self.add_entry(entry)
+  File "/home/airl-radar/radar_env/lib/python3.10/site-packages/pkg_resources/__init__.py", line 613, in add_entry
+    return ST('pattern', [_literal_to_pattern(literal)])
+KeyboardInterrupt
+    for dist in find_distributions(entry, True):
+  File "/home/airl-radar/radar_env/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2073, in find_on_path
+    path_item_entries = _by_version_descending(filtered)
+  File "/home/airl-radar/radar_env/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2043, in _by_version_descending
+    return sorted(names, key=_by_version, reverse=True)
+  File "/home/airl-radar/radar_env/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2041, in _by_version
+    return [try_parse(part) for part in parts]
+  File "/home/airl-radar/radar_env/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2041, in <listcomp>
+    return [try_parse(part) for part in parts]
+  File "/home/airl-radar/radar_env/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2031, in try_parse
+    return packaging.version.Version(name)
+  File "/home/airl-radar/radar_env/lib/python3.10/site-packages/pkg_resources/_vendor/packaging/version.py", line 281, in __init__
+    self._key = _cmpkey(
+  File "/home/airl-radar/radar_env/lib/python3.10/site-packages/pkg_resources/_vendor/packaging/version.py", line 459, in _cmpkey
+    reversed(list(itertools.dropwhile(lambda x: x == 0, reversed(release))))
+KeyboardInterrupt
+gmake[2]: *** [CMakeFiles/mmwave_radar_interfaces__cpp.dir/build.make:149: rosidl_generator_cpp/mmwave_radar_interfaces/msg/header.hpp] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:317: CMakeFiles/mmwave_radar_interfaces__cpp.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/mmwave_radar_interfaces__rosidl_generator_c.dir/build.make:123: rosidl_generator_c/mmwave_radar_interfaces/msg/header.h] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/mmwave_radar_interfaces__rosidl_generator_c.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/ament_cmake_python_build_mmwave_radar_interfaces_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_mmwave_radar_interfaces_egg] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_mmwave_radar_interfaces_egg.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt
